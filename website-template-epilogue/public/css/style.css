@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #F4F5F5;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-image: url("../../public/images/banner.jpg");
+  background-size: cover;
+  padding: 120px 0 120px 0;
+}
+header h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 10px;
+}
+header hr {
+  width: 35%;
+  border: solid white 1px;
+}
+header p {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 50px;
+  letter-spacing: 1.5px;
+  color: white;
+  font-weight: 200;
+}
+header p span {
+  border-bottom: dashed white 1px;
+}
+
+section {
+  margin: 0 12% 0 12%;
+  padding: 50px 0 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  justify-content: space-between;
+}
+section > div:first-child {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+section > div:first-child i {
+  padding: 20px;
+  font-size: 30px;
+  border: solid black 2px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+section > div:first-child h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+}
+section > div:first-child p {
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+section > div:first-child button {
+  padding: 15px 35px;
+  background-color: white;
+  border-radius: 3px;
+}
+section > div:first-child button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  color: black;
+}
+section div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
+  background-color: white;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 50px;
+}
+section div:nth-child(2) div {
+  background-image: url("../../public/images/pic01.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+section div:nth-child(2) h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+}
+section div:nth-child(2) p {
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 25px;
+  padding: 0 25px;
+}
+section div:nth-child(2) button {
+  padding: 15px 25px;
+  background-color: white;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+section div:nth-child(2) button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  color: black;
+}
+section div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
+  background-color: white;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 50px;
+}
+section div:nth-child(3) div {
+  background-image: url("../../public/images/pic02.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+section div:nth-child(3) h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 110px 0 120px 0;
+}
+section div:nth-child(3) p {
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 25px;
+  padding: 0 25px;
+}
+section div:nth-child(3) button {
+  padding: 15px 25px;
+  background-color: white;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+section div:nth-child(3) button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  color: black;
+}
+section div:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
+  background-color: white;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 50px;
+}
+section div:nth-child(4) div {
+  background-image: url("../../public/images/pic03.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+section div:nth-child(4) h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 110px 0 120px 0;
+}
+section div:nth-child(4) p {
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 25px;
+  padding: 0 25px;
+}
+section div:nth-child(4) button {
+  padding: 15px 25px;
+  background-color: white;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+section div:nth-child(4) button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  color: black;
+}
+section div:nth-child(5) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
+  background-color: white;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 50px;
+}
+section div:nth-child(5) div {
+  background-image: url("../../public/images/pic04.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+section div:nth-child(5) h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 100px 0 120px 0;
+}
+section div:nth-child(5) p {
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 25px;
+  padding: 0 25px;
+}
+section div:nth-child(5) button {
+  padding: 15px 25px;
+  background-color: white;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+section div:nth-child(5) button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  color: black;
+}
+
+footer {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0 12% 0 12%;
+  padding: 0 0 50px 0;
+}
+footer div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px 50px 50px;
+  margin-bottom: 50px;
+}
+footer div:first-child h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+}
+footer div:first-child p {
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+footer div:first-child button {
+  padding: 15px 35px;
+  margin-bottom: 60px;
+  border-radius: 3px;
+}
+footer div:first-child button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  color: black;
+}
+footer div:first-child hr {
+  border: solid grey 1px;
+  width: 120px;
+}
+footer div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer div:last-child ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  padding-bottom: 30px;
+}
+footer div:last-child ul li {
+  margin: 0 10px;
+  color: black;
+}
+footer div:last-child ul li i {
+  color: grey;
+}
+footer div:last-child p {
+  font-size: 13px;
+  color: grey;
+}
+
+@media (max-width: 576px) and (min-width: 320px) {
+  section {
+    margin: 0;
+    justify-content: center;
+    margin: 0 12% 0 12%;
+    flex-wrap: wrap;
+  }
+  section > div {
+    width: 100% !important;
+  }
+
+  header > p {
+    margin: 0 10% 0 10%;
+    padding-top: 30px;
+    text-align: center;
+  }
+}
+@media (max-width: 425px) and (min-width: 320px) {
+  section {
+    margin: 0;
+    display: flex !important;
+    justify-content: center !important;
+    align-content: center !important;
+  }
+
+  header > p {
+    margin: 0 10% 0 10%;
+    padding-top: 30px;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

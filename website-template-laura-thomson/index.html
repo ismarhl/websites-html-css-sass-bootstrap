@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>Bootstrap - Exercice 3</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="top" class="col-12">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">RESUME</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">SERVICES</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">PORTFOLIO</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">DROP DOWN <i class="fas fa-chevron-down"></i></a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="text-center vh-100 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-10 col-md-12">
+            <h1>Laura Thomson</h1>
+            <p>I'M A PROFESSIONAL PHOTOGRAPHER IN NEW YORK CITY</p>
+            <a href="#anchor"><i class="hero-arrow-down fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+    <!-- Section 2 -->
+    <section id="anchor" class="py-5">
+        <div class="container">
+            <div class="text-center py-5">
+                <span class="ombre-texte">ABOUT ME</span>
+                <h2>ABOUT ME</h2>
+                <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            </div>
+            <!-- Div Photo & Description Laura -->
+            <div class="row">
+                <!-- Photo -->
+                <div class="col-12 col-lg-4">
+                    <img class="col-12" src="./public/img/me.jpg" alt="Laura Thompson">
+                </div>
+                <!-- Description -->
+                <div class="col-12 col-lg-8 d-flex flex-column justify-content-evenly ps-md-5">
+                    <!-- Première Rangée Description -->
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="p-0">
+                                <li><i class="fas fa-chevron-right"></i> <strong>Name:</strong> <span>Laura
+                                        Thomson</span></li>
+                                <li><i class="fas fa-chevron-right"></i></i> <strong>Website:</strong>
+                                    <span>www.example.com</span>
+                                </li>
+                                <li><i class="fas fa-chevron-right"></i></i> <strong>Phone:</strong> <span>+123 456
+                                        7890</span></li>
+                                <li><i class="fas fa-chevron-right"></i></i> <strong>City:</strong> <span>New York,
+                                        USA</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul>
+                                <li><i class="fas fa-chevron-right"></i></i> <strong>Age:</strong> <span>30</span></li>
+                                <li><i class="fas fa-chevron-right"></i></i> <strong>Degree:</strong>
+                                    <span>Master</span>
+                                </li>
+                                <li><i class="fas fa-chevron-right"></i></i> <strong>Email: </strong>
+                                    <span>email@example.com</span>
+                                </li>
+                                <li><i class="fas fa-chevron-right"></i></i> <strong>Freelance:</strong>
+                                    <span>Available</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Deuxième Rangeé Description -->
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia
+                                dere tan</p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut
+                                voluptate non vel</p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad
+                                der</p>
+                        </div>
+                    </div>
+                    <!-- Troisième Rangée Description -->
+                    <div class="col-12">
+                        <div class="my-3">
+                            <div class="d-flex flex-row justify-content-between">
+                                <p>HTML</p>
+                                <p>100%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-3">
+                            <div class="d-flex flex-row justify-content-between">
+                                <p>CSS</p>
+                                <p>90%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-3">
+                            <div class="d-flex flex-row justify-content-between">
+                                <p>JAVASCRIPT</p>
+                                <p>75%</p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Description -->
+            </div>
+        </div>
+    </section>
+    <!-- Section 3 -->
+    <section class="pb-5">
+        <div class="container">
+            <div class="text-center py-5">
+                <span class="ombre-texte">MY SERVICES</span>
+                <h2>MY SERVICES</h2>
+                <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            </div>
+            <!-- Les Quatre Cartes -->
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="mx-1 shadow text-center p-3 mt-3 mt-md-0">
+                        <div>
+                            <i class="fas fa-basketball-ball"></i>
+                        </div>
+                        <div>
+                            <h3 class="py-2">Lorem Ipsum</h3>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                occaecati cupiditate non provident</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="mx-1 shadow text-center p-3 mt-3 mt-md-0">
+                        <div>
+                            <i class="far fa-copy"></i>
+                        </div>
+                        <div>
+                            <h3 class="py-2">Lorem Ipsum</h3>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                occaecati cupiditate non provident</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="mx-1 shadow text-center p-3 mt-3 mt-md-0">
+                        <div>
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <div>
+                            <h3 class="py-2">Lorem Ipsum</h3>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                occaecati cupiditate non provident</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="mx-1 shadow text-center p-3 mt-3 mt-md-0">
+                        <div>
+                            <i class="fas fa-globe-asia"></i>
+                        </div>
+                        <div>
+                            <h3 class="py-2">Lorem Ipsum</h3>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                occaecati cupiditate non provident</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Des Quatre Cartes -->
+        </div>
+    </section>
+    <!-- Section 4 -->
+    <section class="pb-5">
+        <div class="container">
+            <div class="text-center py-5">
+                <span class="ombre-texte">CONTACT ME</span>
+                <h2>CONTACT ME</h2>
+                <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            </div>
+            <div class="row">
+                <!-- Social Media & Contact -->
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="shadow text-center p-3 mb-4">
+                            <i class="icon-jaune fas fa-network-wired"></i>
+                            <h4 class="py-2">Social Profiles</h4>
+                            <div>
+                                <a href="#"><i class="mx-md-3 mx-1 icon-social fab fa-twitter"></i></a>
+                                <a href="#"><i class="mx-md-3 mx-1 icon-social fab fa-facebook"></i></a>
+                                <a href="#"><i class="mx-md-3 mx-1 icon-social fab fa-instagram"></i></a>
+                                <a href="#"><i class="mx-md-3 mx-1 icon-social fab fa-skype"></i></a>
+                                <a href="#"><i class="mx-md-3 mx-1 icon-social fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6 p-0">
+                            <div class="shadow text-center p-3 mb-4 mb-md-0 me-md-2">
+                                <i class="icon-jaune far fa-envelope"></i>
+                                <h4 class="py-2">Email Me</h4>
+                                <p>contac@example.com</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 p-0">
+                            <div class="shadow text-center p-3 mb-4 mb-md-0 ms-md-2">
+                                <i class="icon-jaune fas fa-mobile-alt"></i>
+                                <h4 class="py-2">Call Me</h4>
+                                <p>+32 456 789 123</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Formulaire -->
+                <div class="col-12 col-md-6">
+                    <div class="shadow p-3 mb-5 text-center">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="6" placeholder="Message" required>
+                                </textarea>
+                            </div>
+                            <div class="text-center pt-4">
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="mt-5">
+        <div class="container text-center">
+            <h3>Laura Thomson</h3>
+            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi
+                placeat.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-skype"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="mt-3">
+                <p>&copy; Copyright <strong><span>Laura</span></strong>. All Rights Reserved</p>
+                <p>Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a></p>
+            </div>
+            <div class="text-end me-3 mt-5">
+                <a href="#top"><i class="fas fa-chevron-up"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
